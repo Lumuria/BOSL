@@ -377,7 +377,7 @@ export default function Home() {
                       : "text-red-700"
                   }`}
                 >
-                  {currentQuestion.explanation}
+                  {currentQuestion.explanation || (quizState.selectedAnswer === currentQuestion.correctAnswer ? "إجابة صحيحة بناءً على معطيات السؤال." : "الإجابة المختارة غير صحيحة، يرجى مراجعة المفاهيم المتعلقة بهذا السؤال.")}
                 </p>
               </div>
             </div>
