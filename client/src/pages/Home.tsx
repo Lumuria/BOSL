@@ -34,6 +34,20 @@ export default function Home() {
   });
 
   const currentQuestion = questions[quizState.currentQuestionIndex];
+
+  const formatTextWithCode = (text: string) => {
+    if (!text) return null;
+    // This regex looks for common code patterns or things that should be LTR
+    // For now, let's wrap segments that look like code in <code> tags
+    // A simple heuristic: if it contains =, $, or common commands
+    const parts = text.split(/(\s+[a-zA-Z0-9_$]+=[^\s]+|\s+[a-zA-Z_$][a-zA-Z0-9_$]*\s+)/g);
+    return parts.map((part, i) => {
+      if (/^[a-zA-Z0-9_$]+=|[a-zA-Z_$][a-zA-Z0-9_$]*/.test(part.trim()) && part.length > 1) {
+        return <code key={i} className="mx-1">{part}</code>;
+      }
+      return part;
+    });
+  };
   const progress = ((quizState.currentQuestionIndex + 1) / quizState.totalQuestions) * 100;
   const questionImages = currentQuestion.images ?? (currentQuestion.image ? [currentQuestion.image] : []);
 
@@ -253,8 +267,19 @@ export default function Home() {
         <Card className="p-6 md:p-8 mb-6 shadow-lg">
           {/* Question Text */}
           <div className="mb-8">
-            <h2 className="text-xl md:text-2xl font-bold text-slate-900 leading-relaxed text-right">
-              {currentQuestion.text}
+            <h2 className="text-xl md:text-2xl font-bold text-slate-900 leading-relaxed text-right" dir="rtl">
+              {currentQuestion.text.split('\n').map((line, i) => (
+                <div key={i} className="mb-2">
+                  {line.split(/(`[^`]+`)/g).map((part, j) => {
+                    if (part.startsWith('`') && part.endsWith('`')) {
+                      return <code key={j}>{part.slice(1, -1)}</code>;
+                    }
+                    // Heuristic for code-like strings in the text
+                    return line.includes('=') || line.includes('$') ? 
+                      <span key={j} style={{ unicodeBidi: 'plaintext' }}>{part}</span> : part;
+                  })}
+                </div>
+              ))}
             </h2>
             <p className="text-sm text-slate-500 mt-3">
               الفئة: {currentQuestion.category}
@@ -315,7 +340,7 @@ export default function Home() {
                     <span className="flex-shrink-0 w-8 h-8 rounded-full border-2 border-current flex items-center justify-center">
                       {option.letter}
                     </span>
-                    <span className="flex-1">{option.text}</span>
+                    <span className="flex-1" dir="ltr" style={{ textAlign: 'right' }}>{option.text}</span>
                     {quizState.answered && isCorrect && (
                       <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0" />
                     )}
@@ -376,6 +401,7 @@ export default function Home() {
                       ? "text-green-700"
                       : "text-red-700"
                   }`}
+                  dir="auto"
                 >
                   {currentQuestion.explanation || (quizState.selectedAnswer === currentQuestion.correctAnswer ? "إجابة صحيحة بناءً على معطيات السؤال." : "الإجابة المختارة غير صحيحة، يرجى مراجعة المفاهيم المتعلقة بهذا السؤال.")}
                 </p>
