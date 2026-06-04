@@ -1,0 +1,3604 @@
+{
+  "pdfPath": "C:\\Users\\ASUS\\Downloads\\os-lab-quiz-app-main\\_تمارين_رفد_الامتحانية_لمخبر_نظم_التشغيل_RAFD_BOSL501.pdf",
+  "totalParsed": 170,
+  "uniqueParsed": 169,
+  "missingFrom1to170": [
+    34
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "أي من التعليمات التالية نستخدمها لقراءة متحول ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "read x"
+        },
+        {
+          "letter": "B",
+          "text": "read $x"
+        },
+        {
+          "letter": "C",
+          "text": "echo $x"
+        },
+        {
+          "letter": "D",
+          "text": "echo x"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 2,
+      "text": "ماذا يحدث عند تنفيذ تعليمة touch file ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "حذف الملف المطلوب"
+        },
+        {
+          "letter": "B",
+          "text": "إنشاء ملف فارغ إذا لم يكن موجودًا أو تغيير تاريخ تعديله إذا كان file ً موجودا"
+        },
+        {
+          "letter": "C",
+          "text": "عرض محتوى الملف"
+        },
+        {
+          "letter": "D",
+          "text": "ربط الملف مع عملية"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 3,
+      "text": "تستخدم تعليمة touch إلنشاء ملف نصي فارغ إذا لم يكن موجودا ً و في حال وجوده يتم ت غيير ت اريخ التعديل فقط",
+      "options": [
+        {
+          "letter": "A",
+          "text": "False"
+        },
+        {
+          "letter": "B",
+          "text": "True"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 3,
+      "text": "تعطي 711 Chmod سماحية ا ل تنفيذ لمجموعة الملف فقط",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 4,
+      "text": "يقوم الكود اآلتي بطباعة القيمة 1",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 5,
+      "text": ": ما نتيجة طباعة اآلتي ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "6 0"
+        },
+        {
+          "letter": "B",
+          "text": "5"
+        },
+        {
+          "letter": "C",
+          "text": "y"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 6,
+      "text": "يقوم األمر rm - rf dir1 بحذف محتوى dir1 بالكامل دون طلب تأكيد في حال أن الصالحيات تسمح بذلك",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 7,
+      "text": "أي مما يأتي هو مهمة األمر m v / root / file1 / home / flie1 ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "تغيير االسم بدون تغيير المجلد"
+        },
+        {
+          "letter": "B",
+          "text": "تغيير االسم وتغيير المجلد"
+        },
+        {
+          "letter": "C",
+          "text": "النقل من مجلد root إلى مجلد home مع تغيير االسم"
+        },
+        {
+          "letter": "D",
+          "text": "النقل من مجلد root إلى مجلد home مع الحفاظ على اسم المجلد نفسه"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 8,
+      "text": "أي مما يأتي هو مهمة األمر m v / root / file1 / home / file1 ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "تغيير االسم بدون تغيير المجلد"
+        },
+        {
+          "letter": "B",
+          "text": "تغيير االسم وتغيير المجلد"
+        },
+        {
+          "letter": "C",
+          "text": "النقل من مجلد root إلى مجلد home مع تغيير االسم"
+        },
+        {
+          "letter": "D",
+          "text": "النقل من مجلد root إلى مجلد home مع الحفاظ على اسم المجلد نفسه"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 9,
+      "text": "يستخدم االمر read x لقراءة قيمة متحول",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 10,
+      "text": "تعطي 5 5 Chmod 6 سماحية ال تعديل للمالك",
+      "options": [
+        {
+          "letter": "A",
+          "text": "False"
+        },
+        {
+          "letter": "B",
+          "text": "True"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 11,
+      "text": "مكان تخزين حسابات المستخدمين والعديد من الملفات الهامة لعمل النظام هو :",
+      "options": [
+        {
+          "letter": "A",
+          "text": "/dev"
+        },
+        {
+          "letter": "B",
+          "text": "/ usr"
+        },
+        {
+          "letter": "C",
+          "text": "/ etc"
+        },
+        {
+          "letter": "D",
+          "text": "/bin"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 12,
+      "text": "تعطي 5 5 Chmod 6 سماحية ا ل قراءة ل كل ال مستخدمين",
+      "options": [
+        {
+          "letter": "A",
+          "text": "False"
+        },
+        {
+          "letter": "B",
+          "text": "True"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 13,
+      "text": "يقوم الخيار f مع التعليمة ls بحذف مجلد",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 14,
+      "text": "يتعامل المستخدم مع نظام التشغيل عن طريق أوامر نصية تكتب بالتفاعل مع",
+      "options": [
+        {
+          "letter": "A",
+          "text": "مفسر األوامر s hell"
+        },
+        {
+          "letter": "B",
+          "text": "نظام الملفات"
+        },
+        {
+          "letter": "C",
+          "text": "home directory"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 15,
+      "text": "من يرسل اإلشارات إلى اإلجرائيات ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "النياسب"
+        },
+        {
+          "letter": "B",
+          "text": "نظام التشغيل"
+        },
+        {
+          "letter": "C",
+          "text": "العتاديات"
+        },
+        {
+          "letter": "D",
+          "text": "اإلجرائيات نفسها"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 16,
+      "text": "تحذف تعليمة rimdir - f محتوى المجلد بدون رسالة تأكيد ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 17,
+      "text": "ت حفظ حسابات المستخدمين المختلفين في ..",
+      "options": [
+        {
+          "letter": "A",
+          "text": "/ home"
+        },
+        {
+          "letter": "B",
+          "text": "/ usr"
+        },
+        {
+          "letter": "C",
+          "text": "/tmp"
+        },
+        {
+          "letter": "D",
+          "text": "/lib"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 18,
+      "text": "عندما يكون تاريخ ملف الوجهة هو تاريخ النسخ تكون التعليمة المستخدمة ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "تعليمة نسخ الملف cp"
+        },
+        {
+          "letter": "B",
+          "text": "تعليمة نقل الملف mv"
+        },
+        {
+          "letter": "C",
+          "text": "تعليمة حذف الملفات rm"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 19,
+      "text": "chmod a=x f1 تعني أن كل المستخدمين لديهم سماحية تنفيذ الملف f1",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 20,
+      "text": "ما نتيجة التعليمة التالية echo y ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "echo y"
+        },
+        {
+          "letter": "B",
+          "text": "y"
+        },
+        {
+          "letter": "C",
+          "text": "0"
+        },
+        {
+          "letter": "D",
+          "text": "1"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 21,
+      "text": "ما نتيجة التعليمة التالية echo x+ y ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "y"
+        },
+        {
+          "letter": "B",
+          "text": "x"
+        },
+        {
+          "letter": "C",
+          "text": "x+y"
+        },
+        {
+          "letter": "D",
+          "text": "echo x+y"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 22,
+      "text": "ما النتيجة عند تنفيذ األوامر التالية باستخدام expr في طباعة قيم المتحوالت :",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1+1"
+        },
+        {
+          "letter": "B",
+          "text": "expr$x+1"
+        },
+        {
+          "letter": "C",
+          "text": "2"
+        },
+        {
+          "letter": "D",
+          "text": "$y"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 23,
+      "text": "ما النتيجة عند تنفيذ األوامر التالية :",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1+1"
+        },
+        {
+          "letter": "B",
+          "text": "$x"
+        },
+        {
+          "letter": "C",
+          "text": "2"
+        },
+        {
+          "letter": "D",
+          "text": "$y"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 24,
+      "text": "ت قوم التعليمة cd بالنقل إلى مجلد الموطن",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 25,
+      "text": "ت قوم التعليمة cd. بالنقل إلى المكان الحالي",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 26,
+      "text": "التعليمة cd. .",
+      "options": [
+        {
+          "letter": "A",
+          "text": "تنقل إلى مجلد الموطن"
+        },
+        {
+          "letter": "B",
+          "text": "تنقل إلى المكان الحالي"
+        },
+        {
+          "letter": "C",
+          "text": "تنقل إلى مجلد األم ضمن الشجرة"
+        },
+        {
+          "letter": "D",
+          "text": "تنقل إلى المجلد السابق"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 27,
+      "text": "التعليمة cd -",
+      "options": [
+        {
+          "letter": "A",
+          "text": "تنقل إلى مجلد الموطن"
+        },
+        {
+          "letter": "B",
+          "text": "تنقل إلى المكان الحالي"
+        },
+        {
+          "letter": "C",
+          "text": "تنقل إلى مجلد األم ضمن الشجرة"
+        },
+        {
+          "letter": "D",
+          "text": "تنقل إلى المجلد السابق"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 28,
+      "text": "ما الذي يتضمنه المتحول PATH ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "جميع أوامر المفسر"
+        },
+        {
+          "letter": "B",
+          "text": "جميع الملفات التنفيذية"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 29,
+      "text": "echo $ PATH ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "نوع الشاشة المستخدمة"
+        },
+        {
+          "letter": "B",
+          "text": "مجموعة المجلدات التي يتم البحث ضمنها عن الملفات التنفيذية"
+        },
+        {
+          "letter": "C",
+          "text": "اسم وهوية المستخدم"
+        },
+        {
+          "letter": "D",
+          "text": "حالة اإلجرائيات"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 30,
+      "text": "تقوم التعليمة pwd",
+      "options": [
+        {
+          "letter": "A",
+          "text": "تعطي الموقع الحالي للمستخدم في نظام الملفات"
+        },
+        {
+          "letter": "B",
+          "text": "تنشئ مجلد جديد"
+        },
+        {
+          "letter": "C",
+          "text": "تغير المجلد الحالي"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 31,
+      "text": "تراعي أسماء الملفات و المجدات الحجم case sensitive",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 32,
+      "text": "أي مما يلي ال يعد من خصائص نظام ملفات Linux/UNIX ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "يمكن الوصول إلى الملفات بدءًا من الجذر الموحد /"
+        },
+        {
+          "letter": "B",
+          "text": "أسماء الملفات والمجلدات حساسة لحالة األحرف"
+        },
+        {
+          "letter": "C",
+          "text": "لكل وحدة تخزين جذر فيزيائي مستقل مثل C : \\ و D : \\"
+        },
+        {
+          "letter": "D",
+          "text": "يوجد مجلد موطن خاص بكل مستخد م"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 33,
+      "text": "عندما نكون في حساب المستخدم العادي نستطيع الوصول غير المستخدم",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 35,
+      "text": "هناك نوعان من الروابط في نظام UNIX/Linux : الروابط القاسية hard links و الروابط االسمية symbolic links",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 36,
+      "text": "ماذا تعني تعليمة mv f2 dir1 ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "حذف الملف f2"
+        },
+        {
+          "letter": "B",
+          "text": "نقل ال ملف f2 إلى المجلد dir1 إذا كان موجودا ً , و في حال لم يكن المجلد dir1 موجودًا يعيد تسمية الملف f2 ليصبح dir1"
+        },
+        {
+          "letter": "C",
+          "text": "عرض الملفات الموجودة ضمن المجلد dir1"
+        },
+        {
+          "letter": "D",
+          "text": "نسخ المجلد dir1"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 37,
+      "text": "تستطيع تعليمة read قراءة أكثر من متحول",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 38,
+      "text": "ماذا تعني تعليمة rm - rf dir1 ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "نقل الم لف dir1 مع طلب سماحية"
+        },
+        {
+          "letter": "B",
+          "text": "حذف الملف dir1 وجميع أبنائه دون طلب سماحية \"دون رسالة تأكيد\""
+        },
+        {
+          "letter": "C",
+          "text": "عرض الملفات الموجودة ضمن المجلد dir1"
+        },
+        {
+          "letter": "D",
+          "text": "نسخ الملف dir1"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 39,
+      "text": "يستخدم األمر rmdir لحذف المجلد الفارغ",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 40,
+      "text": "يعتبر كل ٌ من ( echo , pwd, cd ) ملفات تنفيذية",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 41,
+      "text": "يعتبر كل ٌ من ( ls , cat , more, less ) أوامر مفسر",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 42,
+      "text": "ما النتيجة عند تنفيذ األوامر التالية :",
+      "options": [
+        {
+          "letter": "A",
+          "text": "123"
+        },
+        {
+          "letter": "B",
+          "text": "567"
+        },
+        {
+          "letter": "C",
+          "text": "123567"
+        },
+        {
+          "letter": "D",
+          "text": "123 567"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 43,
+      "text": "ما هو برنامج gedit ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "برنامج لتوليد ملفات"
+        },
+        {
+          "letter": "B",
+          "text": "برنامج نظام الملفات"
+        },
+        {
+          "letter": "C",
+          "text": "برنامج محرر نصوص"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 44,
+      "text": "يمكن الوصول ألي ملف في نظام لينكس من الجذر الموحد",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 45,
+      "text": "هناك طريقتان لتسمية مجلد: طريقة مطلقة و طريقة نسبية",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "Fals"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 46,
+      "text": "إلضافة مستخدم جديد useradd",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 47,
+      "text": "عرض ملفات الـ users نستخدم ls/home",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 48,
+      "text": "تستخدم التعليمة mkdir",
+      "options": [
+        {
+          "letter": "A",
+          "text": "إلنشاء مجلد جديد"
+        },
+        {
+          "letter": "B",
+          "text": "الستعراض معلومات خاصة بمجموعة الملفات"
+        },
+        {
+          "letter": "C",
+          "text": "لعرض جميع المعلومات المتعلقة بالملف"
+        },
+        {
+          "letter": "D",
+          "text": "لعرض الملفات على شكل بنية شجرية"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 49,
+      "text": "تستخدم التعليمة ls",
+      "options": [
+        {
+          "letter": "A",
+          "text": "إلنشاء مجلد جديد"
+        },
+        {
+          "letter": "B",
+          "text": "الستعراض معلومات خاصة بمجموعة الملفات"
+        },
+        {
+          "letter": "C",
+          "text": "لعرض جميع المعلومات المتعلقة بالملف"
+        },
+        {
+          "letter": "D",
+          "text": "لعرض الملفات على شكل بنية شجرية"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 50,
+      "text": "تستخدم التعليمة ls - l",
+      "options": [
+        {
+          "letter": "A",
+          "text": "إلنشاء مجلد جديد"
+        },
+        {
+          "letter": "B",
+          "text": "الستعراض معلومات خاصة بمجموعة الملفات"
+        },
+        {
+          "letter": "C",
+          "text": "لعرض جميع المعلومات المتعلقة بالملف"
+        },
+        {
+          "letter": "D",
+          "text": "لعرض الملفات على شكل بنية شجرية"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 51,
+      "text": "تستخدم التعليمة ls - R",
+      "options": [
+        {
+          "letter": "A",
+          "text": "إلنشاء مجلد جديد"
+        },
+        {
+          "letter": "B",
+          "text": "الستعراض معلومات خاصة بمجموعة الملفات"
+        },
+        {
+          "letter": "C",
+          "text": "لعرض جميع المعلومات المتعلقة بالملف"
+        },
+        {
+          "letter": "D",
+          "text": "لعرض الملفات على شكل بنية شجرية"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 52,
+      "text": "ما خرج التعليمة التالية ؟ chmod u = r, a+x f1 تعني أن كل المجموعات لهم صالحية التنفيذ و صالحية القراءة للمالك فقط",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 53,
+      "text": "ماذا تعني تعليمة cp f1 dir1/f2 ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "حذف الملف f1"
+        },
+        {
+          "letter": "B",
+          "text": "نسخ محتويات الملف f1 إلى الملف f2 إذا كان موجودا ً , و في حال لم يكن الملف f2 موجودًا سيقوم بعمل نسخة من f1 و يسميها باسم f2"
+        },
+        {
+          "letter": "C",
+          "text": "عرض الملفات الموجودة ضمن الملفين f1 f2"
+        },
+        {
+          "letter": "D",
+          "text": "نسخ الملف f2"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 54,
+      "text": "تعرض التعليمة cat file محتوى الملف",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 55,
+      "text": "تعني إشارة # أننا نقوم بالعمل على حساب المسؤول",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 56,
+      "text": "تعني إشارة $ أننا نقوم بالعمل في حساب مستخدم عادي",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 57,
+      "text": "حسب الصورة أدناه ما هي سما ح ية الملف f2 ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "744"
+        },
+        {
+          "letter": "B",
+          "text": "644"
+        },
+        {
+          "letter": "C",
+          "text": "545"
+        },
+        {
+          "letter": "D",
+          "text": "ليس له أي سماحية"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 58,
+      "text": "إ ذا كان خرج ls - l للملف a يحوي السماحية - rwxrwxr - x ، فما التمثيل الصحيح للسماحية ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "7 75"
+        },
+        {
+          "letter": "B",
+          "text": "755"
+        },
+        {
+          "letter": "C",
+          "text": "664"
+        },
+        {
+          "letter": "D",
+          "text": "777"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 59,
+      "text": "ما الترميز الرقمي للسماحية التالية rwxr - xr - x ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "755"
+        },
+        {
+          "letter": "B",
+          "text": "775"
+        },
+        {
+          "letter": "C",
+          "text": "664"
+        },
+        {
+          "letter": "D",
+          "text": "711"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 60,
+      "text": "أي تعليمة تُستخدم لعرض السماحيات بالشكل التفصيلي مثل rwxr - xr - x ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ls - l"
+        },
+        {
+          "letter": "B",
+          "text": "ls"
+        },
+        {
+          "letter": "C",
+          "text": "ps - l"
+        },
+        {
+          "letter": "D",
+          "text": "pwd - l"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 61,
+      "text": "للدخول لحساب المستخدم؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "su - svu حيث svu هو المستخدم"
+        },
+        {
+          "letter": "B",
+          "text": "su - svu حيث svu هو اسم مجلد"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 62,
+      "text": "عندما يكون تاريخ ملف الوجهة هو تاريخ ا لملف األساسي تكون التعليمة المستخدمة ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "تعليمة نسخ الملف cp"
+        },
+        {
+          "letter": "B",
+          "text": "تعليمة نقل الملف mv"
+        },
+        {
+          "letter": "C",
+          "text": "تعليمة حذف الملفات rm"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 63,
+      "text": "ما هو خرج البرنامج التالي بعد إدخال الكلمة repeat و ا لرقم 5 :",
+      "options": [
+        {
+          "letter": "A",
+          "text": "طباعة كلمة repeat خمس مرات"
+        },
+        {
+          "letter": "B",
+          "text": "طباعة رقم 5"
+        },
+        {
+          "letter": "C",
+          "text": "طباعة كلمة repeat"
+        },
+        {
+          "letter": "D",
+          "text": "ال يظهر أي خرج"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 64,
+      "text": "عند طباعة المتحول echo $ $",
+      "options": [
+        {
+          "letter": "A",
+          "text": "يظهر اإلجرائية األم"
+        },
+        {
+          "letter": "B",
+          "text": "إجرائية مفسر األوامر shell"
+        },
+        {
+          "letter": "C",
+          "text": "حالة اإلجرائيات"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 65,
+      "text": "عند تنفيذ األمر ps - x يظهر الخرج إجرائيات ال تستخدم تظهر قيمة العمود ? = TTY , ماذا يعني ذلك ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "اإلجرائيات غير المرتبطة بمستخدم محدد"
+        },
+        {
+          "letter": "B",
+          "text": "اإلجرائيات التي ال تقوم بعمليات دخل وخرج وهي إجرائيات أمامية"
+        },
+        {
+          "letter": "C",
+          "text": "اإلجرائيات التي ال تقوم بعمليات دخل وخرج وهي إجرائيات خلفية"
+        },
+        {
+          "letter": "D",
+          "text": "اإلجرائيات التي تقوم بعمليات دخل من خالل لوحة المفاتيح"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 66,
+      "text": "أي من المعلومات التالية ال يعرضها ps - l ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "VSZ"
+        },
+        {
+          "letter": "B",
+          "text": "SZ"
+        },
+        {
+          "letter": "C",
+          "text": "WCHAN"
+        },
+        {
+          "letter": "D",
+          "text": "PRI"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 67,
+      "text": "أي مما يلي هو فائدة تعليمة kill ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "إنشاء إجرائية"
+        },
+        {
+          "letter": "B",
+          "text": "عرض إجرائية خلفية"
+        },
+        {
+          "letter": "C",
+          "text": "عرض إجرائية أمامية"
+        },
+        {
+          "letter": "D",
+          "text": "إنهاء عمل اإلجرائية"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 68,
+      "text": "ما معنى ا لحالة D التي ن راها في الحقل S عند استعراض اإلجراءات باستخدام ps ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "uninterruptible sleep / Non interruptible sleep"
+        },
+        {
+          "letter": "B",
+          "text": "defunct (\"zombie\") process"
+        },
+        {
+          "letter": "C",
+          "text": "interruptible sleep (waiting for an event to complete )"
+        },
+        {
+          "letter": "D",
+          "text": "stopped by job control signal"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 69,
+      "text": "ما معنى ا لحالة S التي ن راها في الحقل S عند استعراض اإلجراءات باستخدام ps ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "running or runnable"
+        },
+        {
+          "letter": "B",
+          "text": "Interruptible sleep"
+        },
+        {
+          "letter": "C",
+          "text": "Uninterruptible sleep"
+        },
+        {
+          "letter": "D",
+          "text": "هذه الحالة غير موجودة"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 70,
+      "text": "إجرائية في حالة انتظار لحدث ما، ويمكن مقاطعة انتظارها عن طريق اإلشارات، ما الحالة التي تظهر في العمود S ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "D"
+        },
+        {
+          "letter": "B",
+          "text": "S"
+        },
+        {
+          "letter": "C",
+          "text": "Z"
+        },
+        {
+          "letter": "D",
+          "text": "ــــ"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 71,
+      "text": "لدينا اإلجرائية األم P1 واإلجرائية االبن P2 عند تنفيذ األمر ps - l ، عندئذ يكون PPID لإلجرائية P 1 يساوي PID ا إلجرائية P 2",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 72,
+      "text": "اإلجرائية init",
+      "options": [
+        {
+          "letter": "A",
+          "text": "هي إجرائية تقوم بتهيئة وحدة المعالجة المركزية عند اإلقالع"
+        },
+        {
+          "letter": "B",
+          "text": "هي إجرائية يتم إنشاؤها عند تنفيذ أي أمر في الطرفية"
+        },
+        {
+          "letter": "C",
+          "text": "هي اإلجرائية الجذر لشجرة اإلجرائيات التي تعمل على الجهاز"
+        },
+        {
+          "letter": "D",
+          "text": "ال شيء مما ذكر صحيح"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 73,
+      "text": "اإلجرائية init هي اإلجرائية الجذر لشجرة اإلجرائيات التي تعمل على الجهاز و رقم التعريف الخاص بها هو ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "المعرف 2"
+        },
+        {
+          "letter": "B",
+          "text": "المعرف 1"
+        },
+        {
+          "letter": "C",
+          "text": "المعرف 0"
+        },
+        {
+          "letter": "D",
+          "text": "ال شيء مما ذكر صحيح"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 74,
+      "text": "يمكن أن تكون Deamons في أنظمة لينكس إجرائية أمامية أو خلفية",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 75,
+      "text": "تصنّف الـ daemons في Linux/UNIX عادة ً على أنها إجرائيات :",
+      "options": [
+        {
+          "letter": "A",
+          "text": "تفاعلية"
+        },
+        {
+          "letter": "B",
+          "text": "غير تفاعلية"
+        },
+        {
+          "letter": "C",
+          "text": "أمامية"
+        },
+        {
+          "letter": "D",
+          "text": "عكسية"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 76,
+      "text": "تقوم ps بعرض ملفات المالك",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 77,
+      "text": "تقوم ps بعرض إجرائيات المستخدم الحالي",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 78,
+      "text": "ما معنى ا لحالة X التي ن راها في الحقل S عند استعراض اإلجراءات باستخدام ps ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "running or runnable"
+        },
+        {
+          "letter": "B",
+          "text": "Interruptible sleep"
+        },
+        {
+          "letter": "C",
+          "text": "Uninterruptible sleep"
+        },
+        {
+          "letter": "D",
+          "text": "هذه الحالة غير موجودة"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 79,
+      "text": "عن د تشغيل إجرائية خلفية و إعطاء األمر ps - l ما ذا ستكون حالة اإلجرائية في جدول اإلجرائيات",
+      "options": [
+        {
+          "letter": "A",
+          "text": "R"
+        },
+        {
+          "letter": "B",
+          "text": "D"
+        },
+        {
+          "letter": "C",
+          "text": "S"
+        },
+        {
+          "letter": "D",
+          "text": "T"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 80,
+      "text": "اإلجرائية التفاعلية هي إجرائية أمامية",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 81,
+      "text": "اإلجرائية غير التفاعلية هي إجرائية خلفية",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 82,
+      "text": "يقوم األمر ps - x بعرض اإلجرائيات التي يملكها المستخدم الحالي وال يعرض اإلجرائيات الخلفية",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 83,
+      "text": "في العمود VSZ يظهر الحجم الكلي للذاكرة التي تشغله اإلجرائية",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 84,
+      "text": "في العمود RSS يظهر الحجم الكلي للذاكرة التي ت ستهلك ه اإلجرائية من الذاكرة الرئيسية",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 85,
+      "text": "يقوم الخيار p - في التعليمة pstree بعرض معرفات اإلجرائيات إلى جانب اسم البرنامج",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 86,
+      "text": "عندما تكون اإلجرائية خلفية ال يمكننا العودة إلى مفسر األوامر shell",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 87,
+      "text": "تعني Ctrl+z إرسال إشارة توقف اإلجرائيات و تصبح حالة اإلجرائية T",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 88,
+      "text": "أي مما يلي هو مهمة التعليمة jobs",
+      "options": [
+        {
+          "letter": "A",
+          "text": "تحويل العمل إلى إجرائية خلفية"
+        },
+        {
+          "letter": "B",
+          "text": "معرفة األعمال الخاصة بإجرائية مفسر األوامر الحالية"
+        },
+        {
+          "letter": "C",
+          "text": "إعادة اإلجرائية إلى حالة التشغيل األمامية"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 89,
+      "text": "ما التعليمة التي تعرض األعمال أو اإلجرائيات المعلقة الخاصة بمفسر األوامر الحالي؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ps"
+        },
+        {
+          "letter": "B",
+          "text": "ps - l"
+        },
+        {
+          "letter": "C",
+          "text": "ps - x"
+        },
+        {
+          "letter": "D",
+          "text": "jobs"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 90,
+      "text": "أي مما يلي هو مهمة التعليمة bg",
+      "options": [
+        {
+          "letter": "A",
+          "text": "تحويل العمل إلى إجرائية خلفية"
+        },
+        {
+          "letter": "B",
+          "text": "معرفة األعمال الخاصة بإجرائية مفسر األوامر الحالية"
+        },
+        {
+          "letter": "C",
+          "text": "إعادة اإلجرائية إلى حالة التشغيل األمامية"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 91,
+      "text": "أي مما يلي هو مهمة التعليمة fg",
+      "options": [
+        {
+          "letter": "A",
+          "text": "تحويل العمل إلى إجرائية خلفية"
+        },
+        {
+          "letter": "B",
+          "text": "معرفة األعمال الخاصة بإجرائية مفسر األوامر الحالية"
+        },
+        {
+          "letter": "C",
+          "text": "إعادة اإلجرائية إلى حالة التشغيل األمامية"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 92,
+      "text": "لنقل اإلجرائية بشكل خلفي نستخدم",
+      "options": [
+        {
+          "letter": "A",
+          "text": "./f1 &"
+        },
+        {
+          "letter": "B",
+          "text": "./f1 -"
+        },
+        {
+          "letter": "C",
+          "text": "./f1 ."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 93,
+      "text": "تعليمة gcc f.c - o f تقوم بتوليد ملف تنفيذي",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 94,
+      "text": "يمكن إنهاء عمل إجرائية عن طريقة تعليمة kill - 9 pid",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 95,
+      "text": "إلنهاء إجرائية بشكل قسري عند معرفة رقمها PID = 2450 نستخدم :",
+      "options": [
+        {
+          "letter": "A",
+          "text": "kill 2450"
+        },
+        {
+          "letter": "B",
+          "text": "kill - 9 2450"
+        },
+        {
+          "letter": "C",
+          "text": "kill - 15 2450"
+        },
+        {
+          "letter": "D",
+          "text": "ps - 9 2450"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 96,
+      "text": "أي مما يلي هو صحيح عن ال تعليمة top",
+      "options": [
+        {
+          "letter": "A",
+          "text": "عرض جميع اإل جرائيات التي تعمل على الجهاز مرتبة حسب استخدامها للمعالج، و يمكن إيقافها عن طريق q"
+        },
+        {
+          "letter": "B",
+          "text": "عرض اإلجرائيات الخلفية فقط، يمكن ايقافها عن طريق q"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 97,
+      "text": "يمثل المتحول $ PPID",
+      "options": [
+        {
+          "letter": "A",
+          "text": "اإلجرائية األم"
+        },
+        {
+          "letter": "B",
+          "text": "إجرائية مفسر األوامر shell"
+        },
+        {
+          "letter": "C",
+          "text": "اإلجرائية االبن"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 98,
+      "text": "عندما تكون اإلجرائية في حالة S تكون قيمة العامود WCHAN هي do_wai",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 99,
+      "text": "يمثل قيمة العامود PRI",
+      "options": [
+        {
+          "letter": "A",
+          "text": "هوية اإلجرائية"
+        },
+        {
+          "letter": "B",
+          "text": "أولوية اإلجرائية"
+        },
+        {
+          "letter": "C",
+          "text": "هوية اإلجرائية االم"
+        },
+        {
+          "letter": "D",
+          "text": "هوية المستخدم مالك اإلجرائية"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 100,
+      "text": "إجرائية انتهت من عملها ولكن بقيت سجالتها موجودة في نواة نظام التشغيل تُسمى :",
+      "options": [
+        {
+          "letter": "A",
+          "text": "إجرائية أمامية foreground processes"
+        },
+        {
+          "letter": "B",
+          "text": "إجرائية خلفية background processes"
+        },
+        {
+          "letter": "C",
+          "text": "إجرائية زومبي Zombie"
+        },
+        {
+          "letter": "D",
+          "text": "إجرائية يتيمة Orphan"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 101,
+      "text": "ما هو الهدف الرئيسي من التعليمة wait ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "التأكد من انتهاء جميع النياسب ضمن اإلجرائية قبل انتهاء عمل اإلجرائية"
+        },
+        {
+          "letter": "B",
+          "text": "يستخدم لجعل اإلجرائية االم تنتظر اإلجرائية االبن حتى تنتهي"
+        },
+        {
+          "letter": "C",
+          "text": "تمرير نتيجة تنفيذ اإلجرائية األم إلى اإلجرائية االبن"
+        },
+        {
+          "letter": "D",
+          "text": "التأكد من تحرير جميع الموارد المحجوزة قبل انتهاء عمل اإلجرائية"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 102,
+      "text": "إن األمر -- 10 nice غير مسموح إال إذا كان المستخدم يتمتع بصالحيات مدير النظام",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 103,
+      "text": "عند تنفيذ مستخدم عادي للتعليمة : nice -- 10 ./a.out",
+      "options": [
+        {
+          "letter": "A",
+          "text": "تُرفع أولوية اإلجرائية بنجاح"
+        },
+        {
+          "letter": "B",
+          "text": "تُخفض أولوية اإلجرائية بنجاح"
+        },
+        {
+          "letter": "C",
+          "text": "تظهر رسالة خطأ أو رفض صالحية"
+        },
+        {
+          "letter": "D",
+          "text": "تُنهى اإلجرائية مباشرة"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 104,
+      "text": "تنشئ تعليمة fork إجرائية جديدة هي نسخة طبق األصل عن اإلجرائية التي تستدعيها و تعيد القيمة 0 إلى اإلجرائية األم كدليل نجاح عملها",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 105,
+      "text": "عندما تكون قيمة ال nice موجبة نقوم خفض األولوية",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 106,
+      "text": "رفع األولوية من صالحيات المسؤول",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 107,
+      "text": "مبدأ عمل تعليمة renice هو تعديل األولوية بعد إنشاء اإلجرائية",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 108,
+      "text": "ما اسم الحالة التي تنتهي فيها اإلجرائية األب قبل إجرائية االبن ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "zombie"
+        },
+        {
+          "letter": "B",
+          "text": "orphan"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 109,
+      "text": "إذا أردنا رفع أولوية إجرائية موجودة رقمها PID = 927 باستخدام renice ، فالكتابة األقرب للصواب هي :",
+      "options": [
+        {
+          "letter": "A",
+          "text": "renice - n - 5 - p 927"
+        },
+        {
+          "letter": "B",
+          "text": "renice - n 5 - p 927"
+        },
+        {
+          "letter": "C",
+          "text": "nice - n - 5 - p 927"
+        },
+        {
+          "letter": "D",
+          "text": "renice - p - 5 - n 927"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 110,
+      "text": "إذا أردنا خفض أولوية برنامج اسمه a عند تشغيله، فتكون التعليمة المناسبة :",
+      "options": [
+        {
+          "letter": "A",
+          "text": "nice - 5 ./a"
+        },
+        {
+          "letter": "B",
+          "text": "nice - 5 927"
+        },
+        {
+          "letter": "C",
+          "text": "nice 5 927"
+        },
+        {
+          "letter": "D",
+          "text": "renice ./a"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 111,
+      "text": "عندما تنتهي اإلجرائية األب قبل االبن يتولى الجذر init إنهاء إجرائية االبن",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 112,
+      "text": "يستهلك المعالج زمنا ً عندما تكون اإلجرائية في حالة انتظار waiting",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 113,
+      "text": "في حالة الزومبي : تنتهي اإلجرائية االبن قبل اإلجرائية األب وال يرسل االبن إشارة تدل على انتهاءه",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 114,
+      "text": "أي مما يلي هو وظيفة االستدعاء sleep",
+      "options": [
+        {
+          "letter": "A",
+          "text": "جعل اإلجرائية تنتظر عدد من الثواني قبل أن تعود لحالة الجهوزية ready"
+        },
+        {
+          "letter": "B",
+          "text": "تنفيذ اإلجرائية مع أولوية معدلة"
+        },
+        {
+          "letter": "C",
+          "text": "تعديل القيمة بعد إنشاء اإلجرائية"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 115,
+      "text": "مستوى اللطف niceness هي قيمة إضافية تضاف إلى األولوية التي يحددها النظام لتحديد األولوية النهائية و تكون ممثلة بالعمود NI",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 116,
+      "text": "إذا كانت األولوية قيمها 80 في العامود PRT و قمن باستخدام التعليمة nice - 10 ما الناتج في عامود PRT",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ترتفع األولوية وتصبح قيمتها 90"
+        },
+        {
+          "letter": "B",
+          "text": "تنخفض األولوية وتصبح قيمتها 90"
+        },
+        {
+          "letter": "C",
+          "text": "ترتفع األولوية وتصبح قيمتها 70"
+        },
+        {
+          "letter": "D",
+          "text": "تنخفض األولوية وتصبح قيمتها 70"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 117,
+      "text": "المسا هم ة في تحديد أولوية االجرا ئية niceness هو أمر غير مسموح إال لو كان المستخدم يتمتع بصالحيات مدير النظام",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 118,
+      "text": "تنشئ التعليمة fork نسخة %100 عن اإلجرائية األب",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 119,
+      "text": "تستعيد اإلجرائية االبن القيمة صفر",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 120,
+      "text": "أي مما يلي صحيح؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "getppid() يعيد قيمة هوية اإلجرائية الحالية و getpid() يعيد قيمة هوية اإلجرائية األب"
+        },
+        {
+          "letter": "B",
+          "text": "getpid() يعيد قيمة هوية اإلجرائية الحالية و getppid() يعيد قيمة هوية اإلجرائية األب"
+        },
+        {
+          "letter": "C",
+          "text": "getppid() يعيد قيمة هوية اإلجرائية االبن و getpid() يعيد قيمة هوية اإلجرائية األب"
+        },
+        {
+          "letter": "D",
+          "text": "getppid() يعيد قيمة هوية اإلجرائية األب و getpid() يعيد قيمة هوية اإلجرائية االبن"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 121,
+      "text": "تنهي wait(int* stat us) عملها في حال عدم وجود أبناء لإلجرائية األم و تعيد القيمة 1",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 122,
+      "text": "إعطاء القيمة NULL كوسيط لالستدعاء wait () ينتج عنه االنتظار بدون الحصول على أية قيمة معادة",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 123,
+      "text": "لحل مشكلة الزومبي نضع االستدعاء wait() في اإلجرائية األب",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 124,
+      "text": "عند إنشاء مصفوفة أين يتم حفظ مساحة تخزينها ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "الذاكرة االفتراضية"
+        },
+        {
+          "letter": "B",
+          "text": "الذاكرة الرئيسية"
+        },
+        {
+          "letter": "C",
+          "text": "على المصفوفة نفسها"
+        },
+        {
+          "letter": "D",
+          "text": "غير ذلك"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 125,
+      "text": "تقوم pthread_create بعمل نسخة عن النيسب األساسي كما تقوم التعليمة fork باإلجرائيات",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 126,
+      "text": "يأخذ التابع P thread_exit باراميتر ه و القيمة المعادة عند انتهاء النيسب أي من التوابع التالية يلتقط القيمة المعادة من هذا التابع؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pthread _ create"
+        },
+        {
+          "letter": "B",
+          "text": "Pthread _ join"
+        },
+        {
+          "letter": "C",
+          "text": "Pthread _ mutex _ lock"
+        },
+        {
+          "letter": "D",
+          "text": "ليس مما ورد"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 127,
+      "text": "تابع shced _ yielde يسمح للن يسب ب ترك و ح دة المعالج ة؟ لمنع استن ث ار الن يسب بوحدة المعالجة لفترة طويلة",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 128,
+      "text": "ما هو عمل ال تابع shced _ yielde () ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "التواصل بين النياسب"
+        },
+        {
+          "letter": "B",
+          "text": "التنسيق بين النياسب"
+        },
+        {
+          "letter": "C",
+          "text": "إنشاء النياسب"
+        },
+        {
+          "letter": "D",
+          "text": "االنتظار"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 129,
+      "text": "الواجهة POSIX هي واجهة برمجية معيارية و تستخدم لتعطينا استدعاءات النياسب الخاصة",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 130,
+      "text": "للحصول على الملف التنفيذي عند استخدام النياسب يجب الترجمة باستخدام الخيار",
+      "options": [
+        {
+          "letter": "A",
+          "text": "– lpthread"
+        },
+        {
+          "letter": "B",
+          "text": "– thread"
+        },
+        {
+          "letter": "C",
+          "text": "Lpthread"
+        },
+        {
+          "letter": "D",
+          "text": "thread"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 131,
+      "text": "ماذا يفعل التابع Pthread _ join ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "إيقاف عمل النيسب المستدعي حتى يتم إنهاء عمل النيسب المحدد ضمن الوسيط"
+        },
+        {
+          "letter": "B",
+          "text": "تكرار عم ل النيسب المستدعي حتى يتم إنهاء عمل النيسب المحدد ضمن الوسيط"
+        },
+        {
+          "letter": "C",
+          "text": "ترك وحدة المعالجة ليقوم نظام التشغيل انتخاب نيسب آخر مكانه وتسليمه وحدة المعالجة"
+        },
+        {
+          "letter": "D",
+          "text": "جعل النيسب ينتظر لتفرة زمنية محددة"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 132,
+      "text": "أي مما يلي يكافئ عمل wait() في اإلجرائيا ت إلى حد ما ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pthread _ create"
+        },
+        {
+          "letter": "B",
+          "text": "Pthread _ mutex _ lock"
+        },
+        {
+          "letter": "C",
+          "text": "Pthread _ join"
+        },
+        {
+          "letter": "D",
+          "text": "ليس مما ورد"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 133,
+      "text": "بين النياسب ضمن اإلجرائية الواحدة نستخدم غالبًا آليات التزامن لحماية المتحوالت المشتركة، وليس آليات التواصل بين اإلجرائيات .",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 134,
+      "text": "العالقة بين النياسب",
+      "options": [
+        {
+          "letter": "A",
+          "text": "هرمية"
+        },
+        {
+          "letter": "B",
+          "text": "تراتبية"
+        },
+        {
+          "letter": "C",
+          "text": "عكسية"
+        },
+        {
+          "letter": "D",
+          "text": "ال توجد عالقة"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 135,
+      "text": "العالقة بين اإلجرائيات",
+      "options": [
+        {
+          "letter": "A",
+          "text": "هرمية"
+        },
+        {
+          "letter": "B",
+          "text": "تراتبية"
+        },
+        {
+          "letter": "C",
+          "text": "عكسية"
+        },
+        {
+          "letter": "D",
+          "text": "ال توجد عالقة"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 136,
+      "text": "ما العالقة بين النياسب و اإلجرائيات ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "اإلجرائية هي واحدة التنفيذ والنيسب هو واحدة تخصيص الموارد"
+        },
+        {
+          "letter": "B",
+          "text": "اإلجرائية هي واحدة تخصيص الموارد والنيسب هو واحدة التنفيذ"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 137,
+      "text": "ما هي وظيفة التعليمة Pthread _exit ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "إنهاء عمل النيسب"
+        },
+        {
+          "letter": "B",
+          "text": "إنشاء نسيب جديد"
+        },
+        {
+          "letter": "C",
+          "text": "إرجاع مؤشر إلى متغير محلي"
+        },
+        {
+          "letter": "D",
+          "text": "جعل النيسب ينتظر لتفرة زمنية محددة"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 138,
+      "text": "أي مما يلي ي شابه عمل exit في اإلجرائيات ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pthread _ create"
+        },
+        {
+          "letter": "B",
+          "text": "Pthread _ mutex _ lock"
+        },
+        {
+          "letter": "C",
+          "text": "Pthread _ join"
+        },
+        {
+          "letter": "D",
+          "text": "Pthread_exit"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 139,
+      "text": "تشترك النياسب في المتحوالت العامة global variable",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 140,
+      "text": "أي مما يلي صحيح؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "لفرض التناوب بين النيسبين يجب فرض استخدام اإلجرائية لعدة أنوية ويتم ذلك عن طريقة تعليمة pthread_create"
+        },
+        {
+          "letter": "B",
+          "text": "لفرض التناوب بين النيسبين يجب فرض استخدام اإلجرائية لنواة واحدة ويتم ذلك عن طريقة تعليمة pthread_create"
+        },
+        {
+          "letter": "C",
+          "text": "لفرض التناوب بين النيسبين يجب فرض استخدام اإلجرائية لعدة أنوية ويتم ذلك عن طريقة تعليمة tasksek"
+        },
+        {
+          "letter": "D",
+          "text": "لفرض التناوب بين النيسبين يجب فرض استخدام اإلجرائية لنواة واحدة ويتم ذلك عن طريقة تعليمة tasksek"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 141,
+      "text": "يعتبر استخدام التابع sleep جيد عندما تكون النياسب المستخدمة هي نياسب من مستوى المستخدم",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 142,
+      "text": "لكي تتصل النياسب و تتشارك المتحوالت المشتركة ما الذي نستخدمه مما يلي ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pipes"
+        },
+        {
+          "letter": "B",
+          "text": "Named pipes"
+        },
+        {
+          "letter": "C",
+          "text": "Shared memory"
+        },
+        {
+          "letter": "D",
+          "text": "ال داعي الستخدام أي شيء E . كل ما ذُكر خاطئ"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 143,
+      "text": "ما هي المعالجة االفتراضية لإلشارة SIGSEGV ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Core"
+        },
+        {
+          "letter": "B",
+          "text": "Term"
+        },
+        {
+          "letter": "C",
+          "text": "Ign"
+        },
+        {
+          "letter": "D",
+          "text": "S top"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 144,
+      "text": "ما هي اإلشارة ال مرسلة عن تنفيذ الكود التالي؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SIGKILL"
+        },
+        {
+          "letter": "B",
+          "text": "ال ترسل إشارة"
+        },
+        {
+          "letter": "C",
+          "text": "SIGSEGV"
+        },
+        {
+          "letter": "D",
+          "text": "SIGTRERR"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 145,
+      "text": "ما هي اآلليات التي ال تتتعامل بها اإلجرائية مع اإلشارة المستقبلة ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "القيام بمعالجة افتراضية"
+        },
+        {
+          "letter": "B",
+          "text": "التقاط اإلشارة"
+        },
+        {
+          "letter": "C",
+          "text": "تجاهل اإلشارة"
+        },
+        {
+          "letter": "D",
+          "text": "إعادتها إلى نظام التشغيل"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 146,
+      "text": "أي تابع أو آلية يمكن أن تتوقع من خاللها اإلجرائية لحظة حدوث إشارة؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "c atch"
+        },
+        {
+          "letter": "B",
+          "text": "s em"
+        },
+        {
+          "letter": "C",
+          "text": "pipe"
+        },
+        {
+          "letter": "D",
+          "text": "ال يمكن توقع لحظة حدوث اإلشارة"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 147,
+      "text": "أي تابع يسمح بربط إشارة بمعالج داخل اإلجرائية؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "signal()"
+        },
+        {
+          "letter": "B",
+          "text": "sem_wait()"
+        },
+        {
+          "letter": "C",
+          "text": "pipe()"
+        },
+        {
+          "letter": "D",
+          "text": "shmget()"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 148,
+      "text": "ما هي اإلشارة التي تتولد عند الضغط على Ctrl +C ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SIGINT"
+        },
+        {
+          "letter": "B",
+          "text": "SIGTERM"
+        },
+        {
+          "letter": "C",
+          "text": "SIGKILL"
+        },
+        {
+          "letter": "D",
+          "text": "SIGQUIT"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 149,
+      "text": "اإلشارة رسالة قصيرة تحتوي على ..؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "رقم اإلشارة"
+        },
+        {
+          "letter": "B",
+          "text": "رقم اإلجرائية المرسلة لها"
+        },
+        {
+          "letter": "C",
+          "text": "رقم مالك اإلجرائية"
+        },
+        {
+          "letter": "D",
+          "text": "كل ما ذكر صحيح"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 150,
+      "text": "يمكن إرسال إشارة إلى إجرائية إما عن طريق رقم اإلجرائية PID أو عن طريق اسم اإلجرائية .",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 151,
+      "text": "اإلشارة هي رسائل ترسل من نظام التشغيل إلى اإلجرائيات",
+      "options": [
+        {
+          "letter": "C",
+          "text": "True"
+        },
+        {
+          "letter": "D",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 152,
+      "text": "لماذا ال يمكننا التقاط اإلشارة kill التي رقمها 9 ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ألنها تنشئ إجرائية جديدة"
+        },
+        {
+          "letter": "B",
+          "text": "ألنها تسمح بإنهاء إجرائية جديدة حكما ً دون أن يكون في إمكان اإلجرائية القيام بأي شيء"
+        },
+        {
+          "letter": "C",
+          "text": "ألنها تسمح بتحويل اإلشارة المحددة"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 153,
+      "text": "الحالة D تمثل اإلجرائيات التي تكون في حالة انتظار وال يمكن مقاطعتها",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 154,
+      "text": "الحالة S تمثل اإلجرائيات التي تكون في حالة انتظار ويمكن مقاطعتها",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 155,
+      "text": "إذا قمنا باستخدام kill $$ ً ستنتهي اإلجرائية الراهنة فورا",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 156,
+      "text": "يتعامل نظام التشغيل مع المقاطع المشتركة في الذاكرة بين اإلجرائيات من خالل عدة استدعاءات في النظام , أي من االستدعاءات التالية يمكن استخدامها لربط اإلجرائية مع المقطع المشترك ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "s hmctl"
+        },
+        {
+          "letter": "B",
+          "text": "s hmat"
+        },
+        {
+          "letter": "C",
+          "text": "s hm get"
+        },
+        {
+          "letter": "D",
+          "text": "shmdt"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 157,
+      "text": "أي استدعاء يُستخدم إلنشاء مقطع ذاكرة مشتركة أو الحصول عليه؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "s hmctl"
+        },
+        {
+          "letter": "B",
+          "text": "s hmat"
+        },
+        {
+          "letter": "C",
+          "text": "s hm get"
+        },
+        {
+          "letter": "D",
+          "text": "shmdt"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 158,
+      "text": "أي من األدوات التالية ال تُستخدم في التواصل بين اإل جرائيات ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Thread"
+        },
+        {
+          "letter": "B",
+          "text": "Message queue"
+        },
+        {
+          "letter": "C",
+          "text": "Pipes"
+        },
+        {
+          "letter": "D",
+          "text": "Shared memory"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 159,
+      "text": "ما الطر يقة المستخدمة ال ستدعا ء األنابيب المسماة (Named Pipes) ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pipe()"
+        },
+        {
+          "letter": "B",
+          "text": "shmat()"
+        },
+        {
+          "letter": "C",
+          "text": "mkfifo()"
+        },
+        {
+          "letter": "D",
+          "text": "sem_open()"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 160,
+      "text": "أي من التالي ل يس من مزايا األنابيب (pipes) ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "التواصل بين اإلجرائيتين عن طريق القراءة والكتابة من طرف واحد"
+        },
+        {
+          "letter": "B",
+          "text": "االتصال في االنبوب يكون في اتجاه واحد"
+        },
+        {
+          "letter": "C",
+          "text": "إ نشاء االنبوب عن طريق استدعاء pipe"
+        },
+        {
+          "letter": "D",
+          "text": "األنابيب هي طريقة تواصل بين إجرائيتين (أم وابن) أو أكثر"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 161,
+      "text": "أي من التالي ل يس من مزايا األنابيب (pipes) ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "التواصل بين اإلجرائيتين عن طريق القراءة من طرف والكتابة من طرف اآلخر"
+        },
+        {
+          "letter": "B",
+          "text": "االتصال في االنبوب يكون في اتجاه واحد"
+        },
+        {
+          "letter": "C",
+          "text": "إ نشاء االنبوب عن طريق استدعاء pipe s"
+        },
+        {
+          "letter": "D",
+          "text": "األنابيب هي طريقة تواصل بين إجرائيتين (أم وابن) أو أكثر"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 162,
+      "text": "في األنابيب ، إذا أردنا أن يتم التواصل بين إجرائيتين بحيث تكون الكتابة من طرف والقراءة من الطرف اآلخر، فأي استدعاء نستخدم ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mkfifo()"
+        },
+        {
+          "letter": "B",
+          "text": "pipe()"
+        },
+        {
+          "letter": "C",
+          "text": "كالهما"
+        },
+        {
+          "letter": "D",
+          "text": "shmget()"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 163,
+      "text": "من استخدامات السيمافور إعالم إجرائية من قبل أخرى بأنه قد حدث أمر ما , ماذا نسمي هذه المهمة ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "االستبعاد المتبادل"
+        },
+        {
+          "letter": "B",
+          "text": "المقطع الحرج"
+        },
+        {
+          "letter": "C",
+          "text": "حالة التسابق"
+        },
+        {
+          "letter": "D",
+          "text": "التشوير"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 164,
+      "text": "لحماية القيم المشتركة داخل المقطع الحرج ومنع حدوث حالة التسابق، أي مقطع كود هو الصحيح؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "نستخدم kill إليقاف إحدى اإلجرائيات قبل دخول المقطع الحرج"
+        },
+        {
+          "letter": "B",
+          "text": "ال يمكن حماية القيم المشتركة ألن النياسب ال تتشارك المتحوالت العامة حالة التسابق"
+        },
+        {
+          "letter": "C",
+          "text": "D ."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 165,
+      "text": "عند التجربة واالستخدام يمكن تأسيس السيمافور على أي قيمة صحيحة نريدها",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True"
+        },
+        {
+          "letter": "B",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 166,
+      "text": "سيمافور مؤسس على القيمة 1 ويُستخدم لحماية مقطع حرج :",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pipe"
+        },
+        {
+          "letter": "B",
+          "text": "Mutex"
+        },
+        {
+          "letter": "C",
+          "text": "Shared memory"
+        },
+        {
+          "letter": "D",
+          "text": "Zombie"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 167,
+      "text": "أي من التعليمات التالية مشابهة لتعليمة pthread_mutex_lock ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pthread_craet ()"
+        },
+        {
+          "letter": "B",
+          "text": "sem_ ini t()"
+        },
+        {
+          "letter": "C",
+          "text": "sem_ post ()"
+        },
+        {
+          "letter": "D",
+          "text": "sem_ wait ()"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 168,
+      "text": "من خالل الجدول أدناه Process A Process B Wait(); Wait(); // critical section // critical section x++; x++; S ignal (); S ignal (); ماذا نستخدم للطباعة بالتناوب (a….b , a…b , a….b , a… b) :",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mutex"
+        },
+        {
+          "letter": "B",
+          "text": "Signaling"
+        },
+        {
+          "letter": "C",
+          "text": "Shared Memory"
+        },
+        {
+          "letter": "D",
+          "text": "Named Pipes"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 169,
+      "text": "أ ي من األدوات التالية ال تستخدم في التواصل بين اإل جرائيات (IPC) ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Shared memory"
+        },
+        {
+          "letter": "B",
+          "text": "Threads"
+        },
+        {
+          "letter": "C",
+          "text": "Message queue"
+        },
+        {
+          "letter": "D",
+          "text": "Pipes"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    },
+    {
+      "id": 170,
+      "text": "أي من االستدعاءات التالية يضمن عدم حدوث استنثار يؤدي إلى قفزة طويلة بوحدة المعالجة ؟",
+      "options": [
+        {
+          "letter": "A",
+          "text": ")( wait"
+        },
+        {
+          "letter": "B",
+          "text": ")( sched_yield"
+        },
+        {
+          "letter": "C",
+          "text": ")( sleep"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "",
+      "category": "نظم التشغيل"
+    }
+  ]
+}
